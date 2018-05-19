@@ -4,7 +4,6 @@
   "description": "An electron sample that shows how to combine a Console back-and with an Electron / Node.JS front-end",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
     "start": "electron ."
   },
   "repository": {
@@ -19,5 +18,8 @@
   "homepage": "https://github.com/JordyDew/electron-sample#readme",
   "devDependencies": {
     "electron": "^2.0.1"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
   }
 }
