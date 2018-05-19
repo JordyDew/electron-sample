@@ -1,26 +1,23 @@
 {
   "name": "electron-sample",
   "version": "1.0.0",
-  "description": "This is an example on how to combine console applications ad backend with Electron frontend",
+  "description": "An electron sample that shows how to combine a Console back-and with an Electron / Node.JS front-end",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "electron ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JordyDew/electron-sample.git"
   },
-  "keywords": [
-    "electron",
-    "sample",
-    "console",
-    "back-end",
-    "front-end"
-  ],
   "author": "Jordy Deweer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JordyDew/electron-sample/issues"
   },
-  "homepage": "https://github.com/JordyDew/electron-sample#readme"
+  "homepage": "https://github.com/JordyDew/electron-sample#readme",
+  "devDependencies": {
+    "electron": "^2.0.1"
+  }
 }
