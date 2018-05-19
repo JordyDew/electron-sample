@@ -45,7 +45,14 @@ Enter a name in the textbox shown on the created page and click on of the button
 
 You may also download the release of this project.
 
-There are versions for Windows, Linux and MacOS (either 32 and 64 bits).
+There is only a version for Windows available, since I did not compile the C# and Python scripts for other platforms. Feel free to do so on your own.
 
 To download those, go to [the releases section of thes repository](https://github.com/jordydew/electron-sample/releases) and choose the file you want.
 
+## Notes
+
+* Since I only provided Windows console applications, you cannot run this on a Linux or Macintosh machine (yet). Feel free to compile the examples in bon/src or write your own console application that outputs a simpel string.
+
+* I only made a release for Windows 64 bit, because I do not have any other configuration available.
+
+* The C# example always works, because it is compiled for any CPU, but the Python script only works on 64 bit machines.
