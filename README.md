@@ -10,11 +10,11 @@ I didn't provide other scripting and programming languages, but feel free to add
 
 I didn't set a license. That means that you are free to use this project completely free, also with commercial purposes and you don't have to share any source code when you distribute this app.
 
-Although, what I have created is not very useful.
+Although, what I have created is not very useful. So, using it would be rare.
 
 ## How to use it?
 
-### Install neede software.
+### Install needed software
 
 First of all, you need some stuff installed:
 
@@ -37,7 +37,9 @@ cd /path/to/the/electron-sample
 electron ./main.js
 ```
 
-And that's it!
+### Interacting with the UI
+
+Enter a name in the textbox shown on the created page and click on of the buttons. The system will call the needes piece of software and execute all necessary commands in the right order and format.
 
 ### Download a release
 
