@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- This sets the window title as well -->
+<title>Electron + Console backend - Sample</title>
+<!-- Add the event handlers -->
+<script src="ui.js" type="text/javascript" language="javascript"></script>
+<!-- Add executor -->
+<script scc="executor.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+<div class="containter">
+<div class="form">
+<form>
+<fieldset>
+<div class="control-group"><label for="name">Enter your name:</label>
+<input type="text" name="input" id="input"></div>
+<div class="control-group">
+<button onclick="runprogram('cs');">C#</button>
+<button onclick="runprogram('py');">Python 3</button>
+</div>
+</fieldset>
+</form>
+</div>
+
+<div id="output"></div>
+</div>
+</body>
+</html>
